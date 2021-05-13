@@ -23,20 +23,23 @@ body {
 
 .container {
     max-width: 375px;
-    margin: auto;
+    margin: 1em auto;
     background: #1b1938;
-    padding: 1em 0 0;
+    /* padding: 0 0; */
+    border-bottom-left-radius: .8em;
+    border-bottom-right-radius: .8em;
 }
 
 .hero__image {
     background: url('/images/image-header-mobile.jpg') no-repeat center/cover;
     height: 50vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .card {
     padding: 1.5em;
     text-align: center;
-    line-height: 1.6;
 }
 
 .intro {
@@ -52,8 +55,9 @@ body {
 
 .description {
     font-family: 'Lexend Deca', sans-serif;
-    font-weight: 1.5rem;
+    font-weight: 400;
     color: #ffffffbf;
+    margin-bottom: 2em;
 }
 
 .stats {
