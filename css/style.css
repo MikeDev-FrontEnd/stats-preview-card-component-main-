@@ -1,3 +1,8 @@
+:root {
+    --lite-clr: #fff;
+    --dark-clr: #000;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -5,5 +10,12 @@
 body {
     margin: 0;
     padding: 0;
+    background: #0F2027;
 }
+
+.container {
+    max-width: 270px;
+    background: #203A43;
+}
+
 
