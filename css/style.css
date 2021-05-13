@@ -16,6 +16,8 @@ body {
 .container {
     max-width: 270px;
     background: #203A43;
+    display: grid;
+    place-items: center;
 }
 
 
