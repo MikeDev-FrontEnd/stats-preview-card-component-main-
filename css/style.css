@@ -1,23 +1,64 @@
-:root {
-    --lite-clr: #fff;
-    --dark-clr: #000;
-}
-
 *, *::before, *::after {
     box-sizing: border-box;
+}
+
+.photo {
+    width: 100%;
+    display: block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    line-height: 1.9;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background: #0F2027;
+    background: #090b1a;
 }
 
 .container {
-    max-width: 270px;
-    background: #203A43;
-    display: grid;
-    place-items: center;
+    max-width: 375px;
+    margin: auto;
+    background: #1b1938;
+    padding: 2em 0;
 }
+
+.card {
+    padding: 1.5em;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.intro {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.insights {
+    color: #aa5cdb;
+}
+
+.description {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 1.5rem;
+    color: #ffffffbf;
+}
+
+.stats li:not(.options) {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff99;
+}
+
+
+
 
 
