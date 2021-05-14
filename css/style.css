@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+header {
+    height: 100%;
+    width: 100vw;
+    background: #000000;
+    overflow: hidden;
+    background: #C33764;
+    background: -webkit-linear-gradient(#1d2671cc, #aa5cdb);
+    background: linear-gradient(#1d2671cc, #aa5cdb);
+}
+
 .photo {
     width: 100%;
     height: 100%;
@@ -59,7 +69,8 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     color: #ffffffbf;
-    margin-bottom: 2em;
+    margin: 3em 0;
+    line-height: 1.5;
 }
 
 .stats {
