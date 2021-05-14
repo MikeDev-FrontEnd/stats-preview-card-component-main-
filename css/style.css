@@ -46,7 +46,7 @@ body {
 
 .intro {
     font-family: 'Inter', sans-serif;
-    font-size: 2rem;
+    font-size: 1.95rem;
     font-weight: 700;
     color: #ffffff;
 }
@@ -65,18 +65,28 @@ body {
 .stats {
     font-family: 'Lexend Deca', sans-serif;
     text-transform: uppercase;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #ffffff99;
 }
 
 .options {
     display: block;
-    font-size: 0.6rem;
+    font-size: 0.85rem;
     font-weight: 400;
     margin-bottom: 2.5em;
 }
 
+
+.attribution { 
+    color: #ffffff;
+    font-size: .75rem; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: #3e52a3; 
+}
 
 
 
