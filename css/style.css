@@ -43,14 +43,6 @@ body {
     border-bottom-right-radius: .8em;
 }
 
-/* .hero__image {
-    background: url('/images/image-header-mobile.jpg') no-repeat center/cover;
-    object-fit: cover;
-    height: 50vh;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-} */
-
 .card {
     padding: 1.5em;
     text-align: center;
