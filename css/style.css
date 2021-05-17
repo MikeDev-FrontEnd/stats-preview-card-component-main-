@@ -18,8 +18,8 @@ header {
     max-width: 375px;
     height: 100%;
     display: block;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: .8em;
+    border-top-right-radius: .8em;
     opacity: 0.4;
 }
 
@@ -42,6 +42,7 @@ body {
     border-bottom-left-radius: .8em;
     border-bottom-right-radius: .8em;
 }
+
 
 .card {
     padding: 1.5em;
@@ -87,6 +88,7 @@ body {
     color: #ffffff;
     font-size: .75rem; 
     text-align: center; 
+    padding-bottom: 1.5rem;
 }
 
 .attribution a { 
