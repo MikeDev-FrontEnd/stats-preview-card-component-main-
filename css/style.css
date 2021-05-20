@@ -83,17 +83,14 @@ body {
 }
 
 @media screen and (min-width: 760px) {
+
     .container {
         display: flex;
         flex-direction: row-reverse;
-        gap: 1rem;
+        gap: 1.5rem;
         width: 80%;
         max-width: 960px;
-        text-align: left;
-    }
-
-    .hero  {
-        height: 100%;
+        margin: 7.5em auto 1em;        
     }
 
     .stats {
@@ -109,7 +106,10 @@ body {
         opacity: 0.4;
     }
     
-}     
+    .attribution { 
+        font-size: 1rem
+    } 
+}    
 
 
 
