@@ -2,23 +2,12 @@
     box-sizing: border-box;
 }
 
-/* .hero {
-    height: 100%;
-    width: 100vw;
-    max-width: 375px;
-    background: #000000;
-    overflow: hidden;
-    background: #C33764;
-    background: -webkit-linear-gradient(#1d2671cc, #aa5cdb);
-    background: linear-gradient(#1d2671cc, #aa5cdb);
-} */
-
 .photo {
-    width: 50%;
-    /* max-width: 375px; */
-    height: auto;
+    width: 100%;
     display: block;
     opacity: 0.4;
+    background: -webkit-linear-gradient(#1d2671cc, #aa5cdb);
+    background: linear-gradient(#1d2671cc, #aa5cdb);
 }
 
 ul {
@@ -113,6 +102,13 @@ body {
         align-items: center;
         justify-content: center;
     }
+
+    .photo {
+        width: 50%;
+        display: block;
+        opacity: 0.4;
+    }
+    
 }     
 
 
