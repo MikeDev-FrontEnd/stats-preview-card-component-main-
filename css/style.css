@@ -9,6 +9,7 @@
     opacity: 0.8;
 } 
 
+/* Adding color overlay to the image */
 .overlay {
     position: relative;
 }
@@ -24,23 +25,26 @@
     opacity: 0.5;
 }
 
+/* Slyling List Items */
 ul {
     margin: 0;
     list-style-type: none;
     line-height: 1.9;
 }
 
+/* Styling body */
 body {
     margin: 0;
     padding: 0;
     background: #090b1a;
 }
 
+/* Styling Container and content */
 .container {
     max-width: 375px;
     margin: 1em auto;
     background: #1b1938;
-    border-radius: .8em;
+    border-radius: .5em;
     overflow: hidden;
 }
 
@@ -96,7 +100,16 @@ body {
     color: #3e52a3; 
 }
 
+/* Media query */
 @media screen and (min-width: 760px) {
+    /* Centering the container at desktop view */
+    body {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
 
     .container {
         display: flex;
@@ -104,12 +117,12 @@ body {
         gap: 1.5rem;
         width: 80%;
         max-width: 960px;
-        margin: 7.5em auto 1em;        
+        /* margin: 7.5em auto 1em;     Would also center container at desktop view */
     }
 
     .stats {
         display: flex;
-        gap: 2rem;
+        gap: 4rem;
         align-items: center;
         justify-content: center;
     }
@@ -123,7 +136,7 @@ body {
         height: 100%;
         display: block;
         opacity: 0.8;
-    }
+    } 
     
     .attribution { 
         font-size: 1rem
