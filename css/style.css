@@ -127,6 +127,11 @@ body {
         justify-content: center;
     }
 
+    .intro, .description, .stats {
+        text-align: left;
+        padding: 0 1.5em 0 0;
+    }
+
     .overlay {
         width: 100vw;
     }
