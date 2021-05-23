@@ -3,9 +3,9 @@
 }
 
 .photo {
-    width: 100%;
+    width: 500px;
+    max-width: 100%;
     display: block;
-    position: relative;
     opacity: 0.8;
 } 
 
@@ -21,7 +21,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom right, #aa5cdb, #3e3ed6);
+    background-image: linear-gradient(to bottom right, #8020bb, #8020bb);
     opacity: 0.5;
 }
 
@@ -52,6 +52,7 @@ body {
 .card {
     padding: 1.5em;
     text-align: center;
+    width: 100%;
 }
 
 .intro {
@@ -62,7 +63,7 @@ body {
 }
 
 .insights {
-    color: #aa5cdb;
+    color: #8020bb;
 }
 
 .description {
@@ -117,8 +118,14 @@ body {
         flex-direction: row-reverse;
         gap: 1.5rem;
         width: 80%;
-        max-width: 960px;
+        min-width: 960px;
         /* margin: 7.5em auto 1em;     Would also center container at desktop view */
+    }
+
+    .card {
+        padding: 2.5em;
+        text-align: center;
+        width: 100%;
     }
 
     .stats {
@@ -140,6 +147,7 @@ body {
 
     .photo {
         width: 100%;
+        min-width: 400px;
         height: 100%;
         display: block;
         opacity: 0.8;
