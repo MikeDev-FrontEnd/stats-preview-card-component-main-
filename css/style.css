@@ -37,6 +37,7 @@ body {
     margin: 0;
     padding: 0;
     background: #090b1a;
+    font-size: 16px;
 }
 
 /* Styling Container and content */
@@ -118,26 +119,26 @@ body {
         gap: 1.5rem;
         width: 80%;
         min-width: 960px;
+        height: 50vh;
         /* margin: 7.5em auto 1em;     Would also center container at desktop view */
     }
 
     .card {
         padding: 2.5em;
         text-align: center;
-        width: 100%;
     }
 
     .stats {
         display: flex;
         gap: 4rem;
         align-items: center;
-        justify-content: center;
         margin-top: 3em;
+        font-size: 0.995rem;
     }
 
     .intro, .description, .stats {
         text-align: left;
-        padding: 0 1.5em 0 0;
+        padding: 0 1em 0 0;
     }
 
     .overlay {
@@ -153,7 +154,7 @@ body {
     } 
     
     .attribution { 
-        font-size: 1rem
+        font-size: 1rem;
     } 
 }    
 
